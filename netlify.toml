@@ -1,6 +1,7 @@
 [build]
-  publish = "dist"
-  command = "npm run build"
+  functions = "functions"
+  publish = "dist"  # If you have static files
+   command = "npm run build"
 
-[template]
-  required-extensions = ["supabase"]
+[dev]
+  functions = "functions"
